@@ -10,7 +10,7 @@ from launch_ros.substitutions import  FindPackageShare
 
 def generate_launch_description():
   
-  map_name = input("\nPlease enter your map name ex: my_world")
+  map_name = input("\nPlease enter your map name ex: my_world\n")
   map_dir = f"/home/adan/map/{map_name}.yaml"
   param_file = "/home/adan/ros2_ws/src/mybot/param/eddie.yaml"
   
@@ -26,22 +26,19 @@ def generate_launch_description():
 
   #    na2_bringup navigation_launch.py
   navigation = IncludeLaunchDescription(
-  PythonLaunchDescriptionSource(["/opt/ros/humble/share/nav2_bringup/launch/","bringup_launch.py"],
+  PythonLaunchDescriptionSource(["/opt/ros/humble/share/nav2_bringup/launch/","bringup_launch.py"]),
   launch_arguments={
       "map": map_dir,
       "params_file": param_file,
       "use_sim_time":"false",
       }.items()
   )
-  )
   nmea_navsat = IncludeLaunchDescription(
-  PythonLaunchDescriptionSource(["/home/adan/ros2_ws/src/nmea_navsat_driver/launch","nmea_serial_driver.launch.py"],
+  PythonLaunchDescriptionSource(["/home/adan/ros2_ws/src/nmea_navsat_driver/launch","nmea_serial_driver.launch.py"]),
   launch_arguments={
       "remappings":[("/fix","/gps/fix")]
   
       }.items()
-  
-  )
   )
   
   ##  node
@@ -113,5 +110,5 @@ def generate_launch_description():
   delay_robot_localization,
   delay_navsat_transform,
   delay_robot_localization2,
-  navigation,
+  delay_navigation,
   ])
