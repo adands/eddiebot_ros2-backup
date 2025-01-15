@@ -278,7 +278,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="K5DJ2QyqGL1iPasBfWRb-127" value="DWB controller" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="K5DJ2QyqGL1iPasBfWRb-127" value="controller server" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-820" y="-360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K5DJ2QyqGL1iPasBfWRb-128" value="behavior tree navigator server" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
