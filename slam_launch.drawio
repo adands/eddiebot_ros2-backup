@@ -85,7 +85,7 @@
           <mxGeometry x="-650" y="-820" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bJowuLBQJqoFZH2iHhly-46" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-550" y="-730" width="550" height="700" as="geometry" />
+          <mxGeometry x="-550" y="-730" width="560" height="700" as="geometry" />
         </mxCell>
         <mxCell id="bJowuLBQJqoFZH2iHhly-47" value="TF" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-405" y="-760" width="60" height="30" as="geometry" />
@@ -204,10 +204,10 @@
           <mxGeometry x="-800" y="-810" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="G4_1-E2M1L34-9DnenEh-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;/imu&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-371" y="-850" width="60" height="30" as="geometry" />
+          <mxGeometry x="-360" y="-850" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="G4_1-E2M1L34-9DnenEh-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;/odom_diff&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="-850" width="100" height="30" as="geometry" />
+          <mxGeometry x="-105" y="-850" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
