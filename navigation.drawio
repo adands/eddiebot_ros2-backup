@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="Page-1" id="9ZxMTc3-ZIYmrqtGS89m">
-    <mxGraphModel dx="2924" dy="2244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3290" dy="2446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -422,25 +422,25 @@
           <mxGeometry x="-310" y="-229" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="fkIO_1NnW2KMtVDVKhf6-23" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
-          <mxGeometry x="-830" y="44" width="870" height="110" as="geometry" />
+          <mxGeometry x="-830" y="44" width="990" height="110" as="geometry" />
         </mxCell>
         <mxCell id="fkIO_1NnW2KMtVDVKhf6-24" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-812" y="59" width="80" height="80" as="geometry" />
+          <mxGeometry x="-776" y="59" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fkIO_1NnW2KMtVDVKhf6-25" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Topic&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-750" y="84" width="110" height="30" as="geometry" />
+          <mxGeometry x="-714" y="84" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fkIO_1NnW2KMtVDVKhf6-26" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-552" y="69" width="120" height="60" as="geometry" />
+          <mxGeometry x="-497" y="69" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fkIO_1NnW2KMtVDVKhf6-27" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Software / Program&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-420" y="84" width="175" height="30" as="geometry" />
+          <mxGeometry x="-372" y="84" width="175" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fkIO_1NnW2KMtVDVKhf6-28" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-202" y="59" width="120" height="80" as="geometry" />
+          <mxGeometry x="-99" y="59" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fkIO_1NnW2KMtVDVKhf6-29" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Hardware&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-75" y="84" width="90" height="30" as="geometry" />
+          <mxGeometry x="28" y="84" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fkIO_1NnW2KMtVDVKhf6-30" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="275" y="-320" width="595" height="110" as="geometry" />
