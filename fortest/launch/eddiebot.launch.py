@@ -60,7 +60,7 @@ def generate_launch_description():
   return LaunchDescription([
   
   lidar_launch,
-  #delay_imu,
+  delay_imu,
   #odom_estimate,
   delay_motor_node,
   delay_robot_joint,

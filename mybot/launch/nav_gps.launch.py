@@ -34,11 +34,8 @@ def generate_launch_description():
       }.items()
   )
   nmea_navsat = IncludeLaunchDescription(
-  PythonLaunchDescriptionSource(["/home/adan/ros2_ws/src/nmea_navsat_driver/launch","nmea_serial_driver.launch.py"]),
-  launch_arguments={
-      "remappings":[("/fix","/gps/fix")]
-  
-      }.items()
+  PythonLaunchDescriptionSource(["/home/adan/ros2_ws/src/nmea_navsat_driver/launch/","nmea_serial_driver.launch.py"]),
+
   )
   
   ##  node
@@ -51,7 +48,7 @@ def generate_launch_description():
   parameters=["/home/adan/ros2_ws/src/mybot/config/ekf_local.yaml"],
   arguments=["--ros-args","--param","use_sim_time:=false"],
   remappings=[
-      ("/odometry/filtered","/odometry/filtered/local    ")
+      ("/odometry/filtered","/odometry/filtered/local")
       ]
   )
 
@@ -82,19 +79,19 @@ def generate_launch_description():
  ###delay
  
   delay_navigation = TimerAction(
-	period = 20.0,
+	period = 30.0,
 	actions=[navigation]
 	)
   delay_robot_localization = TimerAction(
-	period = 12.0,
+	period = 26.0,
 	actions=[robot_localization]
 	) 
   delay_robot_localization2 = TimerAction(
-	period = 13.0,
+	period = 26.0,
 	actions=[robot_localization2]
 	) 
   delay_navsat_transform =TimerAction(
-    period = 12.0,
+    period = 25.0,
     actions=[navsat_transform]
   )
   delay_nmea_navsat = TimerAction(

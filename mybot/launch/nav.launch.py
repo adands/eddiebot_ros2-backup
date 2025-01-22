@@ -49,11 +49,11 @@ def generate_launch_description():
  ###delay
  
   delay_navigation = TimerAction(
-	period = 20.0,
+	period = 30.0,
 	actions=[navigation]
 	)
   delay_robot_localization = TimerAction(
-	period = 10.0,
+	period = 25.0,
 	actions=[robot_localization]
 	) 
  
